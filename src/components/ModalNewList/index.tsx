@@ -27,7 +27,7 @@ export const ModalNewList = ({
                 <div className="content">
                     <textarea
                         onChange={(e) => funcChange(e)}
-                        placeholder="Escreva Sua Nova Tarefa"
+                        placeholder="Escreva sua Tarefa"
                     ></textarea>
                     <div className="footer">
                         <Button typeStyle="outlined" func={closeModal}>

@@ -3,6 +3,7 @@ import { Container } from "./App.style";
 import { CardList } from "./components/cardList";
 import { Header } from "./components/Header";
 import { ModalNewList } from "./components/ModalNewList";
+import { PreviewCardList } from "./components/PreviewCardList";
 
 interface PropsListTasks {
     task: string;
@@ -28,17 +29,34 @@ function App() {
     }
 
     function addList() {
-        setListTasks([...listTasks, { task: valueInput }]);
-        setIsModalActive(false);
+        if (valueInput !== "") {
+            setListTasks([...listTasks, { task: valueInput }]);
+            setIsModalActive(false);
+        }
+    }
+
+    function removeList(index: number) {
+        const arr = [...listTasks];
+        arr.splice(index, 1);
+        setListTasks(arr);
     }
 
     return (
         <Container>
             <Header toggleStateModal={toggleModal} />
             <div className="content">
-                {listTasks.map((task) => (
-                    <CardList descriptionTask={task.task} />
-                ))}
+                {listTasks.length > 0 &&
+                    listTasks.map((task, index) => (
+                        <CardList
+                            descriptionTask={task.task}
+                            key={index}
+                            index={index}
+                            removeTask={removeList}
+                        />
+                    ))}
+                {listTasks.length === 0 && (
+                    <PreviewCardList openModal={toggleModal} />
+                )}
             </div>
             <ModalNewList
                 toggleModal={isModalActive}

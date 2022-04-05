@@ -18,8 +18,9 @@ export const GlobalStyle = createGlobalStyle`
         font-size: 62.5%;
         --black: #282c34;
         --gray: #4b5c6b;
-        --blue: #2c88d9;
         --white: #fff;
+        --blue: #2c88d9;
+        --red: #e83f5b;
 
         --border: #c3cfd9;
         --background300: #f0f4f7;

@@ -31,19 +31,23 @@ export const Container = styled.div`
             textarea {
                 border: 0.3rem solid var(--border);
                 border-radius: 0.3rem;
-                padding: 1rem;
+
                 display: block;
                 width: inherit;
                 height: 10rem;
+
+                padding: 1rem;
                 resize: none;
+                font-size: 1.6rem;
             }
             .footer {
                 width: inherit;
+
                 display: flex;
-                gap: 3rem;
                 flex-flow: row wrap;
                 justify-content: space-between;
                 align-items: center;
+                gap: 3rem;
             }
         }
     }

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    max-width: 35rem;
+    width: 33rem;
     border: 0.3rem solid var(--border);
     border-radius: 0.2rem;
     padding: 1rem;
@@ -23,5 +23,11 @@ export const Container = styled.div`
         gap: 3rem;
         align-items: center;
         justify-content: space-between;
+    }
+    &.doneTask {
+        background-color: var(--border);
+        textarea {
+            color: var(--black);
+        }
     }
 `;

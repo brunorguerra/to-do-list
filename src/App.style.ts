@@ -9,7 +9,7 @@ export const Container = styled.div`
     padding: 2rem;
 
     .content {
-        margin-top: 2rem;
+        padding: 3rem 0;
         width: 100%;
         display: flex;
         flex-flow: row wrap;

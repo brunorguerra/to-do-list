@@ -8,10 +8,10 @@ interface PropsHeader {
 export const Header = ({ toggleStateModal }: PropsHeader) => {
     return (
         <Container>
-            <button onClick={toggleStateModal}>
+            <button onClick={toggleStateModal} title="Nova Tarefa">
                 <IoMdAdd size={30} className="iconAdd" />
             </button>
-            <h1>To do List</h1>
+            <h1>Lista de Tarefas</h1>
             <div className="empty"></div>
         </Container>
     );
