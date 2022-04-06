@@ -23,7 +23,7 @@ This project was developed for learning with the following technologies:
 -   [ReactJS](https://reactjs.org/)
 -   [styled-components](https://www.styled-components.com/)
 -   [react-icons](https://react-icons.github.io/react-icons)
--   [VS Code][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
+-   [VS Code][vc] with [ESLint][vceslint]
 
 ## How-To-Use
 
@@ -61,5 +61,4 @@ Made with ♥ by Bruno Guerra [Get in touch!](https://www.linkedin.com/in/brunor
 [nodejs]: https://nodejs.org/
 [yarn]: https://yarnpkg.com/
 [vc]: https://code.visualstudio.com/
-[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 [vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
