@@ -5,6 +5,7 @@ export const Container = styled.div`
     border: 0.3rem solid var(--border);
     border-radius: 0.2rem;
     padding: 1rem;
+    background: var(--background300);
     textarea {
         width: 100%;
         height: 15rem;

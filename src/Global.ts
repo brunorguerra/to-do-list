@@ -27,7 +27,7 @@ export const GlobalStyle = createGlobalStyle`
         --background100: #ffffff;
     }
     body {
-        background-color: var(--background300);
+        background-color: var(--background100);
         font-family: 'Poppins', sans-serif;
         font-weight: 400;
         color: var(--black);

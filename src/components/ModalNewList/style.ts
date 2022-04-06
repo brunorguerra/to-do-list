@@ -30,6 +30,7 @@ export const Container = styled.div`
             width: 100%;
             textarea {
                 border: 0.3rem solid var(--border);
+                background-color: var(--background300);
                 border-radius: 0.3rem;
 
                 display: block;

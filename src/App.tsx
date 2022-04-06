@@ -29,7 +29,7 @@ function App() {
     }
 
     function addList() {
-        if (valueInput !== "") {
+        if (valueInput.trim() !== "") {
             setListTasks([...listTasks, { task: valueInput }]);
             setIsModalActive(false);
         }
