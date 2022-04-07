@@ -3,12 +3,12 @@ import { Container } from "./style";
 interface PropsButton {
     typeStyle?: string;
     children: string;
-    func?: () => void;
+    onClick?: () => void;
 }
 
-export const Button = ({ typeStyle, children, func }: PropsButton) => {
+export const Button = ({ typeStyle, children, onClick }: PropsButton) => {
     return (
-        <Container onClick={func} typeStyle={typeStyle}>
+        <Container onClick={onClick} typeStyle={typeStyle}>
             {children}
         </Container>
     );

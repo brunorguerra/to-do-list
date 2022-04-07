@@ -20,7 +20,8 @@ export const GlobalStyle = createGlobalStyle`
         --gray: #4b5c6b;
         --white: #fff;
         --blue: #2c88d9;
-        --red: #e83f5b;
+        --red: #FC1441;
+        --redOpacity: rgba(252, 20, 65, 0.1);
 
         --border: #c3cfd9;
         --background300: #f0f4f7;
