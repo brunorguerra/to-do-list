@@ -23,6 +23,7 @@ This project was developed for learning with the following technologies:
 -   [ReactJS](https://reactjs.org/)
 -   [styled-components](https://www.styled-components.com/)
 -   [react-icons](https://react-icons.github.io/react-icons)
+-   [ContextAPI](https://pt-br.reactjs.org/docs/context.html)
 -   [VS Code][vc] with [ESLint][vceslint]
 
 ## How-To-Use
